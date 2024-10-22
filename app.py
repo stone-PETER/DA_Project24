@@ -48,9 +48,9 @@ def predict():
     email = request.form.get('email')
     # predict email
     print(email)
-    prediction= load_and_predict_naive_bayes(email)
-    prediction = 1 if prediction == 1 else -1
-    return render_template('index.html', response=prediction)
+    # prediction= load_and_predict_naive_bayes(email)
+    # prediction = 1 if prediction == 1 else -1
+    # return render_template('index.html', response=prediction)
 
 
 if __name__ == "__main__":
